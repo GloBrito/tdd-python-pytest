@@ -34,7 +34,7 @@ tdd_exercicios/
 
 ```bash
 # Clone o repositório
-git clone <URL_DO_REPOSITÓRIO>
+git clone https://github.com/GloBrito/tdd-python-pytest
 cd tdd_exercicios
 
 # (Opcional) Crie um ambiente virtual
@@ -98,6 +98,9 @@ exercicio1/triangulo.py      17      0   100%
 TOTAL                       17      0   100%
 19 passed in 0.10s
 ```
+<img width="1844" height="611" alt="image" src="https://github.com/user-attachments/assets/6af0f0de-1806-4217-ae8e-102b8b09b5cd" />
+
+---
 
 ### Exercício 2 — PersonDAO (23 testes)
 
@@ -109,6 +112,10 @@ exercicio2/pessoa_dao.py      32      1    97%   23
 TOTAL                        32      1    97%
 23 passed in 0.15s
 ```
+<img width="1844" height="706" alt="image" src="https://github.com/user-attachments/assets/697e04fb-8b90-43e4-9ade-90624b65c417" />
+
+
+---
 
 > A linha 23 corresponde ao stub `save()` que lança `NotImplementedError` —
 > propositalmente fora do escopo dos testes, pois pertence à camada de persistência.
@@ -123,6 +130,8 @@ exercicio3/calculadora_salario.py      20      0   100%
 TOTAL                                 20      0   100%
 18 passed in 0.12s
 ```
+<img width="1844" height="612" alt="image" src="https://github.com/user-attachments/assets/adfe5b42-7132-4468-b7b8-ce686ba9d551" />
+
 
 ---
 
