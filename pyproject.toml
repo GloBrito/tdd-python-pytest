@@ -1,0 +1,13 @@
+[tool.pytest.ini_options]
+addopts = "--tb=short -v"
+pythonpath = ["exercicio1", "exercicio2", "exercicio3"]
+python_files = ["teste_*.py", "test_*.py"]
+python_classes = ["Test"]
+python_functions = ["test_"]
+
+[tool.coverage.run]
+source = ["."]
+omit = ["teste_*", "conftest.py", "*/__pycache__/*"]
+
+[tool.coverage.report]
+show_missing = true
